@@ -1,0 +1,561 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #FCF1E8;
+}
+
+/* NAVBAR */
+.navbar-custom {
+    background-color: #4c2d23;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-custom .nav-link {
+    color: #FCF1E8 !important;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #7A3F30 !important;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    background-color: #432818;
+    border: none;
+}
+
+.dropdown-item {
+    color: #FCF1E8;
+}
+
+.dropdown-item:hover {
+    background-color: #7A3F30 ;
+}
+
+/* TITULOS */
+h2 {
+    border-left: 4px solid #4c2d23;
+    padding-left: 10px;
+}
+
+/* CARDS VIDEO */
+.media-card {
+    background: #A34F2B;
+    border-radius: 20px;
+    overflow: hidden;
+
+    box-shadow: #130c0c4b;
+    transition: 0.4s;
+}
+
+.media-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px #130c0c4b;
+}
+
+.media-card h4 {
+    margin: 0;
+}
+
+.media-card p {
+    color: #FCF1E8 ;
+
+    font-size: 0.9rem;
+}
+
+/* PODCAST */
+.podcast-card {
+    background: #7A3F30 ;
+    color: #FCF1E8;
+    padding: 30px;
+    border-radius: 20px;
+
+    box-shadow: 0 15px 40px #130c0c4b;
+    transition: 0.3s;
+}
+
+.podcast-card:hover {
+    transform: scale(1.03);
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    position: relative;
+
+    background: url('img/garita.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+/* OVERLAY*/
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.7) 0%,
+        rgba(0,0,0,0.4) 40%,
+        rgba(0,0,0,0.8) 100%
+    );
+}
+
+/* CONTENIDO ENCIMA */
+.hero .container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+
+/* TÍTULO */
+.hero h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    text-shadow: 0 5px 20px rgba(0,0,0,0.6);
+}
+
+/* logo*/
+.navbar-brand img {
+    height: 40px; 
+    width: auto;
+}
+
+/* LÍNEA DECORATIVA */
+.hero h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #7A3F30 ;
+    margin: 20px auto;
+}
+
+/* SUBTEXTO */
+.hero p {
+    font-size: 1.2rem;
+     background-color: #A34F2B;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+/* BOTÓN */
+.hero .btn {
+    border: 1px solid #FCF1E8;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #7A3F30 ; 
+    border-color:#7A3F30 ;
+    transform: translateY(-3px);
+}
+
+/* TITULOS */
+h2 {
+    border-left: 4px #130c0c
+#130c0c4b;
+    padding-left: 10px;
+    margin-bottom: 2rem;
+}
+/* TITULOS DE ENTREVISTAS */
+.media-card h4 {
+    color: #FCF1E8; 
+}
+
+/* NAVBAR */
+.navbar {
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    background-color: #7A3F30  !important;
+}
+
+/* TEXTO NAV */
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color:#FCF1E8!important;
+}
+
+/* ANIMACIÓN NAV */
+.navbar-hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.navbar-show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* SECCIÓN */
+.intro-garita {
+    background-color: #FCF1E8;
+}
+
+/* IMAGEN */
+.cover-img {
+    width: 100%;
+    height: 60vh;
+    background-image: url('img/garita\ 2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.barra-titulo {
+    width: 100%;
+    background-color: #7A3F30 ;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.barra-titulo h1 {
+    margin: 0;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #FCF1E8;
+    letter-spacing: 1px;
+}
+
+/* CONTENIDO */
+.contenido-garita {
+    max-width: 800px;
+    margin: 60px auto 80px;
+}
+
+/* TEXTO */
+.texto-garita {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/*UBICACIÓN*/
+.ubicacion-section {
+    padding: 80px 0;
+    background-color: #FCF1E8;
+}
+
+/* TÍTULO */
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #7A3F30 ;
+}
+
+/* TARJETA */
+.mapa-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+
+/* MAPA */
+.mapa-card iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    filter: grayscale(50%) contrast(90%);
+}
+
+/* INFO ENCIMA */
+.mapa-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    background: #FCF1E8;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 300px;
+
+    backdrop-filter: blur(8px);
+}
+
+/* TEXTO */
+.mapa-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.mapa-info p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+/* BOTÓN */
+.mapa-info a {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #b46a55;
+    color: #FCF1E8;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.mapa-info a:hover {
+    background: #7A3F30 ;
+}
+
+
+/* NAVBAR PRO */
+.navbar-custom {
+    background-color: #7A3F30 ;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-custom .nav-link {
+    color: #FCF1E8 !important;
+    letter-spacing: 1px;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #b46a55 !important;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    background-color: #432818;
+    border: none;
+}
+
+.dropdown-item {
+    color: #FCF1E8;
+}
+
+.dropdown-item:hover {
+    background-color: #b46a55;
+}
+
+/* CARDS MEDIA */
+.media-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: all 0.4s ease;
+}
+
+/* TITULOS DE ENTREVISTAS */
+.media-card h3 {
+    color: #FCF1E8; 
+}
+
+.media-card h5 {
+    color: #FCF1E8; 
+}
+
+/* VIDEOS DE REELS Y MEDIA-CARD */
+.media-card video {
+    width: 100%;
+    height: 100%;
+    max-height: 90vh; /* opcional para no ocupar toda la pantalla */
+    object-fit: contain; /* mantiene proporción vertical */
+}
+
+/* Videos dentro de ratio */
+.ratio video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* cover recorta, contain ajusta al tamaño real */
+    display: block;
+}
+
+/* OVERLAY */
+.media-card .overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0,0,0,0.6);
+    color: #C88D37;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: 0.4s;
+    text-align: center;
+}
+
+/* HOVER */
+.media-card:hover {
+    transform: translateY(-10px);
+}
+
+.media-card:hover video {
+    transform: scale(1.1);
+}
+
+.media-card:hover .overlay {
+    opacity: 1;
+}
+
+
+/* HOVER */
+
+.podcast-box {
+    background: #7A3F30 ;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px #FCF1E8;
+}
+
+/*GALERÍA*/
+
+.galeria-section {
+    background: #FCF1E8;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* ITEMS */
+.galeria-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease, filter 0.4s ease;
+}
+
+/* TAMAÑOS DINÁMICOS */
+.galeria-item.grande {
+    grid-column: span 2;
+}
+
+.galeria-item.vertical {
+    grid-row: span 2;
+}
+
+/* HOVER PRO */
+.galeria-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(21,12,12,0.25);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.galeria-item:hover img {
+    transform: scale(1.08);
+    filter: brightness(0.9);
+}
+
+.galeria-item:hover::after {
+    opacity: 1;
+}
+
+/* LIGHTBOX */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background: rgba(21,12,12,0.95);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.lightbox .close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 40px;
+    color: #FCF1E8;
+    cursor: pointer;
+}
+
+.video-thumb {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.video-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* botón play */
+.video-thumb::after {
+    content: "▶";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 60px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s;
+}
+
+.video-thumb:hover::after {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* 9x16 ratio */
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
